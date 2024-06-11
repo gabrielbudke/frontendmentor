@@ -51,11 +51,10 @@ body {
   margin-top: 16px;
 }
 
-.profile h2 {
+h2 {
   font-size: 1.2rem;
   font-weight: 600;
   color: var(--color-primary);
-
   margin-top: 8px;
 }
 
