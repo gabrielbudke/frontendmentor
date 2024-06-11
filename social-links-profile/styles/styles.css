@@ -30,7 +30,7 @@ body {
 
 .container {
   background-color: var(--color-neutral-dark-gray);
-  border-radius: 20px;
+  border-radius: 15px;
   width: 95%;
   max-width: 375px;
   padding: 24px;
