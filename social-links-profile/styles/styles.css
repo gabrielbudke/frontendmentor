@@ -30,7 +30,7 @@ body {
 
 .container {
   background-color: var(--color-neutral-dark-gray);
-  border-radius: 5px;
+  border-radius: 20px;
   width: 95%;
   max-width: 375px;
   padding: 24px;
@@ -49,35 +49,36 @@ body {
 
 h1 {
   margin-top: 16px;
+  font-size: 1.5rem;
 }
 
 h2 {
-  font-size: 1.2rem;
+  font-size: 0.875rem;
   font-weight: 600;
   color: var(--color-primary);
   margin-top: 8px;
 }
 
-.profile span {
+.profile p {
   margin: 24px 0;
   color: var(--color-neutral-white);
 }
 
-.links ul {
+ul {
   list-style: none;
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
 
-.links ul li a {
+ul li a {
   border-radius: 5px;
 
   display: flex;
   justify-content: center;
   align-items: center;
 
-  padding: 16px 24px;
+  padding: 12px;
   background-color: var(--color-neutral-gray);
   color: var(--color-neutral-white);
 
@@ -87,12 +88,12 @@ h2 {
   transition: background 0.8s;
 }
 
-.links ul li a:hover {
+ul li a:hover {
   background-color: var(--color-primary);
   color: var(--color-neutral-dark-gray);
 }
 
-.links ul li a:active {
+ul li a:active {
   background-color: var(--color-primary-dark);
   color: var(--color-neutral-dark-gray);
 }
@@ -100,8 +101,9 @@ h2 {
 .attribution {
   font-size: 11px;
   text-align: center;
-  margin-top: 24px;
+  margin-top: 12px;
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
