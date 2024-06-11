@@ -26,14 +26,13 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-  font-size: 14px;
 }
 
 .container {
   background-color: var(--color-neutral-dark-gray);
   border-radius: 5px;
-  width: 350px;
+  width: 95%;
+  max-width: 375px;
   padding: 24px;
 }
 
@@ -52,8 +51,8 @@ body {
   margin-top: 16px;
 }
 
-.profile p {
-  font-size: 16px;
+.profile h2 {
+  font-size: 1.2rem;
   font-weight: 600;
   color: var(--color-primary);
 
@@ -62,7 +61,6 @@ body {
 
 .profile span {
   margin: 24px 0;
-  font-size: 12px;
   color: var(--color-neutral-white);
 }
 
@@ -96,7 +94,6 @@ body {
 }
 
 .links ul li a:active {
-  /* font-weight: 600; */
   background-color: var(--color-primary-dark);
   color: var(--color-neutral-dark-gray);
 }
